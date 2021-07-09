@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&family=Mali:ital,wght@0,200;0,400;1,200;1,400&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: black;
+  text-align: center;
+  font-family: cursive;
+  color: white;
+  padding: 10px;
+}
+.h1{
+  background-color: #f1f1f1;
+}
+
+.topnav{ /*menu*/
+  background-color: #E1EAF2;
+  overflow: hidden;/* oculta o scroll em caso de tamanho maior*/
+}
+
+.topnav a{ /* div dos links*/
+  float: left;
+  color: black;
+  text-decoration: none; /* tira o sublinhado do nome*/
+  text-align: center;
+  font: Arial;
+  padding: 14px 16px;
+}
+
+.topnav a:hover{ /* muda a cor do link*/
+  color: black; /* quando passa o maouse em cima*/
+  background-color: #ddd;
+}
+
+.p{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.Top1{ /* Baitaca*/
+    background-color: white;
+    margin: auto;
+}
+.row{ /* Baitaca*/
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.leftcol{/* Baitaca*/
+  float:left;
+  background-color: #4ABDAC;
+  width: 50%;
+  margin: 0;
+
+}
+.rightcol{/* Baitaca*/
+  float:right;
+  background-color:#4ABDAC;
+  width: 50%;
+  right:0;
+  text-align: center;
+}
+
+.p1{
+  text-align: center;
+  font-size: 1rem;
+}
+
+.row2{ /* Ed Sheeran*/
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.rightcol2{/*Ed Sheeran*/
+  float:right;
+  background-color:#4ABDAC;
+  width: 50%;
+  right:0;
+  text-align: center;
+}
+.leftcol2{/* Ed Sheeran*/
+  float:left;
+  background-color: #4ABDAC;
+  width: 50%;
+  margin: 0;
+}
+
+.row3{ /* Zeca Pagodinho*/
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.rightcol3{/*Zeca Pagodinho*/
+  float:right;
+  background-color:#4ABDAC;
+  width: 50%;
+  right:0;
+  text-align: center;
+}
+
+.leftcol3{/* Zeca Pagodinho*/
+  float:left;
+  background-color: #4ABDAC;
+  width: 50%;
+  margin: 0;
+}
+
+.row4{ /* cassia*/
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.rightcol4{/*CAssia*/
+  float:right;
+  background-color:#4ABDAC;
+  width: 50%;
+  right:0;
+  text-align: center;
+}
+
+.leftcol4{/* Cassia*/
+  float:left;
+  background-color: #4ABDAC;
+  width: 50%;
+  margin: 0;
+}
+
+.row5{ /* Adele*/
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.rightcol5{/*Adele*/
+  float:right;
+  background-color:#4ABDAC;
+  width: 50%;
+  right:0;
+  text-align: center;
+}
+
+.leftcol5{/* Adele*/
+  float:left;
+  background-color: #4ABDAC;
+  width: 50%;
+  margin: 0;
+}

@@ -1,20 +1,22 @@
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
+//function validar() {
+  //var nome = document.getElementById('inputNome');
+  //var telefone = document.getElementById('inputnomeSobre');
+//var endereco = document.getElementById('inputCPF');
+//var cidade = document.getElementById('inputCidade');
+//
+  //if (nome.value == ""){
+    //alert("Nome não informado")
+    //nome.focus();
+  }
+  //if (Sobrenome.value == ""){
+    //alert("Telefone não informado")
+    //telefone.focus();
+  }
+  //if (CPF.value == ""){
+    //alert("Endereço não informado")
+    //endereco.focus();
+  }
+  //if (cidade.value == ""){
+    //alert("Cidade não informada")
+    //cidade.focus();
